@@ -1,0 +1,14 @@
+# 이 파일을 terraform.tfvars로 복사하고 실제 값으로 변경하세요
+# cp terraform.tfvars.example terraform.tfvars
+
+# EC2 키페어 이름 (AWS 콘솔에서 미리 생성해야 합니다)
+ec2_key_name = "your-key-pair-name"
+
+# 데이터베이스 비밀번호 (최소 8자 이상, 대소문자, 숫자 포함)
+db_password = "YourSecurePassword123!"
+
+# 선택적으로 변경 가능한 값들
+# project_name = "spring-app"
+# aws_region = "ap-northeast-2"
+# ec2_instance_type = "t3.micro"
+# rds_instance_class = "db.t3.micro"
